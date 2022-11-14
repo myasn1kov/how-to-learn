@@ -1,4 +1,5 @@
-@import url(../blocks/content/content.css);
+@import url(../vendor/normalize.css);
+@import url(../blocks/root/root.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__main-illustration/header__main-illustartion.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
@@ -15,7 +16,8 @@
 @import url(../blocks/two-columns/__span-accent/two_columns__span-accent.css);
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/video/video.css);
-@import url(../blocks/video/__frames/video__frames.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__description/cards__description.css);
 @import url(../blocks/cards/__image/cards__image.css);
@@ -32,7 +34,7 @@
 @import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
-@import url(../blocks/oakley/oackley.css);
+@import url(../blocks/oakley/oakley.css);
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/feynman/__title/feynman__title.css);
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);

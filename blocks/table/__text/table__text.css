@@ -1,4 +1,4 @@
-.table__text_theme_dark {
+.table__text {
   margin: 0;
   position: relative;
   line-height: 1.2;
@@ -7,4 +7,5 @@
 }
 
 .table__text:last-of-type {
+  margin-top: 20px;
 }

@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Научиться учиться</title>
-    <link href="./vendor/normalize.css" rel="stylesheet">
     <link href="./pages/index.css" rel="stylesheet">
   </head>
   <body>
-    <div class="content">
+    <div class="root">
       <header class="header">
         <img
           class="logo logo_place_header"
@@ -18,7 +17,7 @@
         <p class="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
-          <a class="header__link" href="#">узнать →</a>
+          <a class="header__link" href="#">узнать &rarr;</a>
         </p>
         <img
           class="header__main-illustration"
@@ -115,8 +114,8 @@
         <section class="video">
           <h2 class="section-title">Видео нa TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-          <div class="video__frames">
-            <iframe
+          <div class="video__iframes">
+            <iframe class="video__iframe"
               width="515"
               height="316"
               src="https://www.youtube.com/embed/5MgBikgcWnY"
@@ -124,7 +123,7 @@
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-            <iframe
+            <iframe class="video__iframe"
               width="515"
               height="316"
               src="https://www.youtube.com/embed/arj7oStGLkU"
@@ -337,7 +336,7 @@
           </div>
           <nav class="footer__column footer__column_content_info">
             <h2 class="footer__column-heading">О Практикуме</h2>
-            <ul class="footer__column footer__column-links">
+            <ul class="footer__column-links">
               <li><a class="footer__column-link" href="#">Главная</a></li>
               <li><a class="footer__column-link" href="#">Концепция</a></li>
               <li><a class="footer__column-link" href="#">Наставники</a></li>
